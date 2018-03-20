@@ -1,4 +1,4 @@
-
+/* Pending: Add resume section, re-arrange skills section, link up form with netlify
 
 /* Mobile Version */
 @media only screen and (max-width: 800px) {
@@ -16,6 +16,11 @@
 
     ul.diamond a {
         text-decoration: none;
+    }
+
+    a {
+        cursor: pointer;
+        color: #011A27;
     }
 
     section.dark {
@@ -534,7 +539,7 @@
 
     .my_skills {
         background: #2F3131;
-        height: 338px;
+        height: 420px;
     }
 
     .my_skills .quote, .contact_me .quote {
@@ -548,17 +553,16 @@
     .skills_list {
         margin: 0 0 0 30px;
         display: grid;
-        grid-template-columns: 50px 110px 100px;
-        grid-template-rows: 250px 20px;
+        grid-template-columns: 50px 110px 150px;
+        grid-template-rows: 250px 80px;
     }
 
-    .skills_list ul {
+    ul.technical {
         margin: 0;
         padding: 15px 0 0 20px;
         list-style: none;
         grid-column: 1 / span 2;
-        line-height: 20px;
-        display: grid;
+        line-height: 25px;
         font-family: 'Montserrat', sans-serif;
         font-size: 14px;
         font-weight: 500;
@@ -567,9 +571,47 @@
         border-left: 5px solid white;
     }
 
+    ul.non-tech {
+        margin: 0;
+        padding: 18px 0 0 20px;
+        list-style: none;
+        grid-column: 3;
+        line-height: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        /* text-align: right; */
+        color: white;
+    }
+
+    .skills_list li.head {
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    ul.resume {
+        margin: 0;
+        padding: 10px 0 0 90px;
+        grid-column: 1 / span 3;
+        grid-row: 2;
+        border-left: 5px solid white;
+    }
+
+    ul.resume button {
+        width: 150px;
+        height: 35px;
+        border: none;
+        border-radius: 10px;
+        font-family: 'Karla', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        background: #FFF961;
+    }
+
     .my_projects {
         background: #FFF961;
-        height: 380px;
+        height: 430px;
     }
 
     .my_projects h3.title {
@@ -622,6 +664,14 @@
         font-weight: 500;
     }
 
+    p.other {
+        margin: 0;
+        padding: 20px 0 0 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
     .contact_me {
         background: #2F3131;
         height: 340px;
@@ -668,18 +718,18 @@
 
     .form {
         background: #FFF961;
-        height: 450px;
+        height: 470px;
     }
 
     .form_content {
         margin: 0 0 0 30px;
         border-left: 5px solid black;
-        height: 450px;
+        height: 470px;
     }
 
     .form ul {
         margin: 0;
-        padding: 20px 0 0 20px;
+        padding: 30px 0 0 20px;
         font-family: 'Montserrat', sans-serif;
         font-size: 14px;
         font-weight: 600;
@@ -747,6 +797,11 @@
 
     li {
         list-style: none;
+    }
+
+    a {
+        cursor: pointer;
+        color: #011A27;
     }
 
     #contact {
@@ -1287,7 +1342,7 @@
 
     .my_skills {
         background: #2F3131;
-        height: 450px;
+        height: 480px;
         width: 50%;
         flex-grow: 1;
     }
@@ -1313,16 +1368,16 @@
     .skills_list {
         margin: 0 0 0 60px;
         display: grid;
-        grid-template-columns: 50px 110px auto;
-        grid-template-rows: 250px 20px;
+        grid-template-columns: 50px 150px auto;
+        grid-template-rows: 260px 125px;
     }
 
-    .skills_list ul {
+    ul.technical {
         margin: 0;
         padding: 15px 0 0 20px;
         list-style: none;
         grid-column: 1 / span 2;
-        line-height: 20px;
+        line-height: 25px;
         display: grid;
         font-family: 'Montserrat', sans-serif;
         font-size: 16px;
@@ -1332,9 +1387,53 @@
         border-left: 5px solid white;
     }
 
+    ul.non-tech {
+        margin: 0 auto;
+        padding: 18px 0 0 0;
+        width: 40%;
+        list-style: none;
+        grid-column: 3;
+        line-height: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        /* text-align: right; */
+        color: white;
+    }
+
+    .skills_list li.head {
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    ul.resume {
+        margin: 0 auto;
+        padding: 30px 0 0 0;
+        width: 40vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    ul.resume button {
+        width: 220px;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+        font-family: 'Karla', sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        cursor: pointer;
+        background: #FFF961;
+    }
+
+    ul.resume button:hover {
+        transform: translateY(1px);
+        opacity: 0.9;
+    }
+
     .my_projects {
         background: #FFF961;
-        height: 450px;
+        height: 480px;
         width: 50%;
         flex-grow: 1;
     }
@@ -1368,7 +1467,7 @@
         grid-column: 1 / span 2;
         grid-row: 1;
         font-family: 'Montserrat', sans-serif;
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .project_list img {
@@ -1384,6 +1483,14 @@
         padding: 0 0 20px 50px;
         grid-column: 2;
         grid-row: 2;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    p.other {
+        margin: 0;
+        padding: 30px 0 0 40px;
         font-family: 'Montserrat', sans-serif;
         font-size: 14px;
         font-weight: 500;
@@ -1439,6 +1546,10 @@
         padding:  0 0 0 20px;
         line-height: 20px;
         list-style-type: none;
+    }
+
+    .info ul li {
+        line-height: 25px;
     }
 
     .connect {
