@@ -31,7 +31,7 @@ Priority #2: **User Interphase (UI)**
 
 Design inspirations were mainly sourced from Pinterest:
 
-![ScreenShot](/assets/img/pinterest.jpg)
+![ScreenShot](/assets/img/pinterest.JPG)
 
 ### **Development Journey**
 ---
@@ -45,12 +45,12 @@ Design inspirations were mainly sourced from Pinterest:
     2. Develop content for website
     3. Build website design through iterations in [Figma](https://www.figma.com/file/JlAvL3VMY6hyv8KuhYddJhII/Portfolio-Project)
     
-    ![ScreenShot](/assets/img/figma1.jpg)
+    ![ScreenShot](/assets/img/figma1.JPG)
 
     4. Start with *mobile design* and then the *tablet/desktop* design
         * **Key question:** How do I best present my content in the available real estate?
 
-    ![ScreenShot](/assets/img/figma2.jpg)
+    ![ScreenShot](/assets/img/figma2.JPG)
 
     5. Set up repository and add all related files to [Github](https://github.com/ongsterr/my_website).
 
