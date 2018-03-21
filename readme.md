@@ -1,8 +1,5 @@
 
-## **Portfolio Website**
----
-### **TL;DR**
-
+# **Portfolio Website**
 
 ### **The Idea**
 ---
