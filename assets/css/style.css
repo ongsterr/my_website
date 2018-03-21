@@ -1,4 +1,4 @@
-/* Pending: Add resume section, re-arrange skills section, link up form with netlify
+/* Pending: README, review user experience, update resume
 
 /* Mobile Version */
 @media only screen and (max-width: 800px) {
@@ -112,12 +112,10 @@
     }
 
     li.block-1 .pic {
-        background: url("/assets/img/") white; /* Needs to fix this */
-        background-blend-mode: luminosity;
         background-size: contain;
         width: 100%;
         height: 100%;
-        transform: rotate(-135deg) scale(2.8) translate(-40px,20px);
+        transform: rotate(-135deg) scale(1.8) translate(-30px,12px);
     }
 
     li.block-2 .pic span, li.block-3 .pic span, li.block-4 .pic span, li.block-5 .pic span {
@@ -901,12 +899,10 @@
     }
 
     li.block-1 .pic {
-        background: url("/assets/img/") white; /* Needs to fix this */
-        background-blend-mode: luminosity;
         background-size: contain;
         width: 100%;
         height: 100%;
-        transform: rotate(-135deg) scale(2.8) translate(-40px,20px);
+        transform: rotate(-135deg) scale(2) translate(-20px,25px);
     }
 
     li.block-2 .pic span, li.block-3 .pic span, li.block-4 .pic span, li.block-5 .pic span {
@@ -1457,13 +1453,14 @@
     .project_list {
         margin: 0 40px;
         display: grid;
-        grid-template-columns: 200px auto;
-        grid-template-rows: 50px auto;
+        grid-template-columns: 220px auto;
+        grid-template-rows: 60px auto;
         background: white;
     }
 
     .project_list h4 {
-        padding: 0 0 0 30px;
+        margin: 30px 30px;
+        padding: 0;
         grid-column: 1 / span 2;
         grid-row: 1;
         font-family: 'Montserrat', sans-serif;
@@ -1471,16 +1468,17 @@
     }
 
     .project_list img {
-        width: 190px;
-        height: 140px;
-        padding: 0 0 20px 30px;
+        width: 220px;
+        height: 160px;
+        margin: 0 0 40px 30px;
+        padding: 0;
         grid-column: 1;
         grid-row: 2;
     }
 
     p.promptz {
-        margin: 0 10px 0 0;
-        padding: 0 0 20px 50px;
+        margin: 0 10px 40px 50px;
+        padding: 0;
         grid-column: 2;
         grid-row: 2;
         font-family: 'Montserrat', sans-serif;
