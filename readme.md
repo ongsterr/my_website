@@ -1,6 +1,8 @@
 
 # **Portfolio Website**
 
+To view my website, please click https://www.chrisongg.com/
+
 ### **The Idea**
 ---
 The portfolio website was built to accomplish **3 goals**:
@@ -85,7 +87,5 @@ Design inspirations were mainly sourced from Pinterest:
     * Add meta tags for sharing "snippets"
     * Improve website security through upgrading to "HTTPS"
     * Optimize website loading speed to ensure smoother user experience, or add loading page where necessary
-
-To view my website, please click [here](http://chriso.netlify.com/)
 
 ## <center>--- **Thank You!** ---</center>
